@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLY-SAVER - Inicio de Sesión</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="login.js"></script>
+    <style>
+        body { 
+            
+        
+            background-image: url('small-toy-plane-wood.jpg');
+
+            background-size: cover;
+
+                 background-attachment: fixed;
+
+              background-position: center;
+
+                 background-repeat: no-repeat;
+
+                 min-height: 100vh;
+
+margin: 0;
+padding: 0;
+        }
+
+        h1 {
+            color: #6F2C2F;
+            /* Color vinotinto */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        
+        <h1>FLY-SAVER</h1><img src="../imagenes/fly saver imagen.jpg" alt="Imagen de FLY-SAVER" class="img-fluid my-4"
+            style="max-width: 300px;">
+         <form>
+             <div class="form-group"><label for="usuario">Usuario</label><input type="text" class="form-control"
+                    id="usuario" placeholder="Ingresa tu usuario"></div>
+
+             <div class="form-group"><label for="contraseña">Contraseña</label><input type="password"
+                    class="form-control" id="contraseña" placeholder="Ingresa tu contraseña"></div>
+
+             <div class="form-group"><label for="confirmarContraseña">Confirmar Contraseña</label><input type="password"
+                    class="form-control" id="confirmarContraseña" placeholder="Confirma tu contraseña"></div>
+
+                    <input type="button" value="confirmar" class="btn  btn-primary" id="confirmacion" onclick="pruebaContinuar();"/>
+                    
+         </form>
+
+
+        <div class="mt-3"><a href="inicio.html" class="text-primary">Crear cuenta</a> | <a href="" class="text-primary">Recuperar
+                contraseña</a></div>
+        <div class="social-icons text-left mt-5"><a href="https://www.instagram.com/brayan_estiben_0/" class="mr-2"><img
+                    src="../imagenes/ig.jpeg" alt="Instagram" style="width:30px;"></a><a
+                href="https://www.facebook.com/profile.php?id=100058913043275" class="mr-2"><img src="../imagenes/faceboock.png"
+                    alt="Facebook" style="width:30px;"></a><a href="https://x.com/BrayanU38397376"><img
+                    src="../imagenes/twiter.jpeg" alt="Twitter" style="width:30px;"></a></div>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+
+</body>
+
+</html>

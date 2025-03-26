@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Cuenta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="login.js"></script>
+
+    <style>
+
+        body{
+
+            background-image: url('small-toy-plane-wood.jpg');
+
+            background-size: cover;
+
+            background-attachment: fixed;
+
+            background-position: center;
+
+            background-repeat: no-repeat;
+
+            min-height: 100vh;
+
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .login-container {
+            margin-top: 50px;
+        }
+
+        .logo {
+            width: 150px;
+        
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container login-container">
+        <div class="row justify-content-center">
+            <div class="col-md-6"><img src="../imagenes/fly saver imagen.jpg" alt="Logo" class="logo">
+                <h3 class="text-center">Crear Cuenta</h3>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                    <div class="form-group"><label for="nombre">Nombre</label><input type="textklñ¿+" class="form-control"
+                            id="nombre" placeholder="Ingresa tu nombre" required></div>
+                    <div class="form-group"><label for="apellido">Apellido</label><input type="text"
+                            class="form-control" id="apellido" placeholder="Ingresa tu apellido" required></div>
+                    <div class="form-group"><label for="correo">Correo</label><input type="email" class="form-control"
+                            id="correo" placeholder="Ingresa tu correo" </div>
+                            <class="form-control" id="telefono" placeholder="Ingresa tu número de teléfono"     
+                    </div>
+                    <div class="form-group"><label for="pais">País</label><select class="form-control" id="pais"
+                             
+                        <select name="pais" id="pais">
+                            <option value="">Seleccione un país</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="bolivia">Bolivia</option>
+                            <option value="brasil">Brasil</option>
+                            <option value="chile">Chile</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="costa-rica">Costa Rica</option>
+                            <option value="cuba">Cuba</option>
+                            <option value="ecuador">Ecuador</option>
+                            <option value="el-salvador">El Salvador</option>
+                            <option value="guatemala">Guatemala</option>
+                            <option value="honduras">Honduras</option>
+                            <option value="mexico">México</option>
+                            <option value="nicaragua">Nicaragua</option>
+                            <option value="panama">Panamá</option>
+                            <option value="paraguay">Paraguay</option>
+                            <option value="peru">Perú</option>
+                            <option value="republica-dominicana">República Dominicana</option>
+                            <option value="uruguay">Uruguay</option>
+                            <option value="venezuela">Venezuela</option>
+                        </select>
+                           
+                        <input type="button" value="confirmar" class="btn  btn-danger" id="confirmacion" onclick="pruebaContinuar();"/>
+                </form><a href="index.html" class="btn btn-link" style="float: left;">Regresar</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

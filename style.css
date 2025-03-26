@@ -1,0 +1,18 @@
+body {
+    
+    background-image: url('small-toy-plane-wood.jpg');
+    
+    background-size: cover;
+    
+    background-attachment: fixed;
+    
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    
+    min-height: 100vh;
+    
+    margin: 0;
+    padding: 0;
+}
+
